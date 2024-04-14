@@ -65,11 +65,12 @@ object ramiro{
 	}
 	method bajarALaFosa(){
 		pielGrasosa = true
-		contractura = contractura ++
+		contractura = contractura + 1
 	}
 	method jugarPadlle(){
 		contractura = contractura + 3
 	}
+	method contracturaActual() = contractura
 	
 	method diaDeTrabajo(){
 		self.bajarALaFosa()
